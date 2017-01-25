@@ -3,10 +3,10 @@ WHERE gender = 'M'
       AND (first_name IN ('Irena', 'Vidya')
            OR first_name ='Maya');
 
-
 SELECT first_name, last_name
 FROM employees
-WHERE last_name LIKE 'e%';
+WHERE last_name LIKE 'e%'
+OR last_name like '%e';
 
 SELECT first_name, last_name
 FROM employees
