@@ -1,7 +1,8 @@
 SELECT * FROM employees
 WHERE gender = 'M'
-      AND (first_name IN ('Irena', 'Vidya')
-           OR first_name ='Maya');
+AND (first_name = 'Irena'
+OR first_name= 'Vidya'
+OR first_name ='Maya');
 
 SELECT first_name, last_name
 FROM employees
