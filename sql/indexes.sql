@@ -13,5 +13,6 @@ DESCRIBE albums;
 ALTER TABLE albums
     ADD UNIQUE (name);
 
+## This code is to test the condition above of adding a unique
 INSERT INTO albums (artist, name, release_date)
     VALUES ('Michael Jackson', 'Thriller', '1982');
